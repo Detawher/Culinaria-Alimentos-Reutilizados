@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  background-color: #E8DEA6;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.container .section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start; 
+  background-blend-mode: multiply;
+}
+.ico {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  max-height: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.container .section:nth-child(1) {
+  background: url(https://media.discordapp.net/attachments/774769996769263661/991747854655836160/5_Sem_Titulo_20220629101827.jpg?width=519&height=519);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  align-items: center;
+  background-attachment: fixed;
+}
+.container .section:nth-child(2) { 
+  text-align: center;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  bottom: 50px;
+  left: 50px;
+}
+.content2 h2 {
+  background: #fff;
+  color: #111;
+  border-radius: 12px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2em;
+}
+.content2 p {
+  background: #fff;
+  color: #111;
+  border-radius: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.content3 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content3 h1 {
+  text-align: center;
+  color: #b64800;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content3 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content3 p {
+  color: #111;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content4 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content4 h1 {
+  text-align: center;
+  color: #d9c002;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content4 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content4 p {
+  color: #111;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content5 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content5 h1 {
+  text-align: center;
+  color: #b3b600;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content5 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content5 p {
+  color: #111;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content6 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content6 h1 {
+  text-align: center;
+  color: #d87200;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content6 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content6 p {
+  color: #111;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content7 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content7 h1 {
+  text-align: center;
+  color: #d07916;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content7 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content7 p {
+  color: #111;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content8 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content8 h1 {
+  text-align: center;
+  color: #d07916;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content8 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 14px;
+}
+.content8 p {
+  color: #111;
+  font-size: 11px;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content9 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content9 h1 {
+  text-align: center;
+  color: #c7a885;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content9 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content9 p {
+  color: #111;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content10 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content10 h1 {
+  text-align: center;
+  color: #ae3e00;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content10 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content10 p {
+  color: #111;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.content11 {
+  background: #fffee9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.content11 h1 {
+  text-align: center;
+  color: #b3b600;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+.content11 h2 {
+  color: #412411;
+  font-weight: 600;
+  padding: 2px 25px;
+  font-size: 15px;
+}
+.content11 p {
+  color: #111;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.container .section:nth-child(12) {
+  text-align: center;
+}
+.content12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  bottom: 50px;
+  left: 50px;
+}
+.content12 h2 {
+  background: #fff;
+  color: #111;
+  border-radius: 12px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2em;
+}
+.content12 p {
+  background: #fff;
+  color: #111;
+  border-radius: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
